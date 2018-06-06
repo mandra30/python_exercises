@@ -4,18 +4,18 @@ l = [1,2,3]
 t = (4,5,6)
 d = {'a':7,'b':8,'c':9}
 
-#f()
-#f(1,2,3)
-#f(1,2,3,"groovy")
-#f(a=1,b=2,c=3)
-#f(a=1,b=2,c=3,zzz="hi")
-#f(1,2,3,a=1,b=2,c=3)
+f()
+f(1,2,3)
+f(1,2,3,"groovy")
+f(a=1,b=2,c=3)
+f(a=1,b=2,c=3,zzz="hi")
+f(1,2,3,a=1,b=2,c=3)
 
-#f(*l,**d)
-#f(*t,**d)
-#f(1,2,*t)
-#f(q="winning",**d)
-#f(1,2,*t,q="winning",**d)
+f(*l,**d)
+f(*t,**d)
+f(1,2,*t)
+f(q="winning",**d)
+f(1,2,*t,q="winning",**d)
 
 def f2(arg1,arg2,*args,**kwargs): print(arg1,arg2, args, kwargs)
 
